@@ -1,0 +1,28 @@
+{
+  "name": "random_chatt_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "dev": "node $HOME/random_chatt_app/node_modules/nodemon/bin/nodemon.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^6.1.4",
+    "mongoose": "^5.5.2",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
+
